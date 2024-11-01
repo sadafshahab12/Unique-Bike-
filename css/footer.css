@@ -1,0 +1,43 @@
+.footer-sec {
+  display: flex;
+  background: #000;
+  padding: 10rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.copyright {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.content {
+  text-transform: uppercase;
+}
+.content h1 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: "Roboto", serif;
+  padding-bottom: 0.75rem;
+}
+.content p {
+  padding: 0.75rem 0;
+  font-size: 1.6rem;
+  color: #ffffffcc;
+  font-family: "Roboto", serif;
+}
+.title {
+  margin-bottom: 15rem;
+  line-height: 2rem;
+}
+.title h1 {
+  font-family: "Aladin", system-ui;
+  font-size: 3.5rem;
+  color: #fff;
+}
+.title p {
+  font-size: 1.6rem;
+  padding-left: 0.5rem;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  color: #de1313e5;
+}

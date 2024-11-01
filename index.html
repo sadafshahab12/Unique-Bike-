@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unique Bikes</title>
+
+    <!-- Font family Aladin  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Aladin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Aladin:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font family Robot  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font family Barlow  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/carousel.css" />
+    <link rel="stylesheet" href="/css/customize.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/media.css" />
+    <link rel="stylesheet" href="/css/shoppingcart.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <div class="nav-bar-icon">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </div>
+          <div>
+            <h1>unique</h1>
+            <p>bikes</p>
+          </div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">BIKES</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+        <div class="icons">
+          <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-num">0</span>
+          </div>
+
+          <i class="fas fa-circle-user"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- hero section  -->
+    <section class="hero-section">
+      <div class="hero">
+        <div class="hero-head">
+          <h1>THE EUPHORIA</h1>
+        </div>
+        <div class="image">
+          <div class="carousel">
+            <img
+              src="/images/bike blue.png"
+              class="active carousel-img blueImg"
+              alt="bike1"
+            />
+            <img
+              src="/images/bike blue.png"
+              alt="bike2"
+              class="carousel-img purpleImg"
+            />
+            <img
+              src="/images/bike blue.png"
+              alt="bike3"
+              class="carousel-img yellowImg"
+            />
+          </div>
+          <div class="thumbnails">
+            <img
+              src="/images/bike blue.png"
+              onclick="selectSlide(0)"
+              class="selected"
+              alt="Thumbnail1"
+            />
+            <img
+              src="/images/bike blue.png"
+              onclick="selectSlide(1)"
+              alt="Thumbnail2"
+            />
+            <img
+              src="/images/bike blue.png"
+              onclick="selectSlide(2)"
+              alt="Thumbnail3"
+            />
+          </div>
+        </div>
+        <div class="bike-properties">
+          <div class="color-prop">
+            <div class="color">
+              <p>color</p>
+            </div>
+            <div class="color-dots">
+              <div class="color-name">
+                <label for="blue" class="circle blue"></label>
+                <input type="radio" id="blue" name="color" />
+                <p id="blueclr">blue</p>
+              </div>
+              <div class="color-name">
+                <label for="purple" class="circle purple"></label>
+                <input type="radio" id="purple" name="color" />
+                <p id="purpleclr">purple</p>
+              </div>
+              <div class="color-name">
+                <label for="yellow" class="circle yellow"></label>
+                <input type="radio" id="yellow" name="color" />
+                <p id="yellowclr">yellow</p>
+              </div>
+            </div>
+          </div>
+          <div class="size-prop">
+            <p>size</p>
+            <div class="size">
+              <div>
+                <input type="radio" id="small" name="size" />
+                <label for="small">small</label>
+              </div>
+              <div>
+                <input type="radio" id="medium" name="size" />
+                <label for="medium">medium</label>
+              </div>
+              <div>
+                <input type="radio" id="large" name="size" />
+                <label for="large">large</label>
+              </div>
+            </div>
+          </div>
+          <div class="price-prop">
+            <div class="price">
+              <p>price</p>
+              <select id="price">
+                <option value="price">Select Price</option>
+                <option value="2500" selected>Small - $2500</option>
+                <option value="2800">Medium - $2800</option>
+                <option value="3000">Large - $3000</option>
+              </select>
+            </div>
+            <div class="weight">
+              <p>weight</p>
+              <select id="weight">
+                <option value="weight">Select Weight</option>
+                <option value="15kg" selected>Small - 15kg</option>
+                <option value="20Kg">Medium - 20Kg</option>
+                <option value="30Kg">Large - 30Kg</option>
+              </select>
+            </div>
+            <div class="cart-btn">
+              <button class="addtocart">add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------customize ----------------  -->
+    <section class="customize-sec">
+      <div class="customize">
+        <div class="customizing">
+          <div>
+            <div class="custom-head">
+              <h1>customize</h1>
+            </div>
+            <div class="border"></div>
+            <div class="custom-img-sec">
+              <div class="custom-img">
+                <img src="./images/saddle.png" alt="saddle" />
+                <p>saddle</p>
+              </div>
+              <div class="custom-img">
+                <img src="./images/gear.png" alt="gear" />
+                <p>crank gear</p>
+              </div>
+              <div class="custom-img">
+                <img src="./images/frame.jpeg" alt="frame" />
+                <p>frame</p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+
+        <div class="description">
+          <p class="desc">description</p>
+          <p class="spec">specs</p>
+        </div>
+        <div class="sub-headline">
+          <p>Be unique with your choice of ride.</p>
+        </div>
+        <div class="para desc-para">
+          <p>
+            The EUPHORIA turns obstacles into features. Its nimble, poppy feel
+            makes even the most mundane rides feel like they're loaded with
+            features to hop, skip and jump over. It's the kind of bike that
+            makes new trails feel as familiar as the back of your hand.
+            <br /><br />
+            27.5 is the fun-sized wheel size. Smaller wheels provide an ideal
+            balance between toughness and weight saving making them the most
+            fleet-footed (or quick fingered) whether launching logs or weaving
+            through stumps. With its quick and agile character, the 5010 has
+            become a go-to plaything for progressive riders the world over and
+            the only contender on any backyard trails.
+          </p>
+      
+        </div>
+        <div class="para spec-para">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed consequuntur delectus corrupti voluptatibus labore omnis vel ipsam, fugit, assumenda molestiae explicabo. Voluptas adipisci necessitatibus magni! Cum voluptatibus illo corporis similique ullam dicta eligendi aliquid nostrum at sint minima accusamus inventore provident omnis labore, nemo ad, culpa, esse alias architecto aliquam possimus nam distinctio! Aliquam expedita molestiae tempore necessitatibus, nobis voluptate quia molestias rem ipsa delectus iure aut repellat exercitationem nesciunt sint minus explicabo dignissimos cumque modi! Quidem soluta, esse eos odit impedit delectus nisi culpa non repellat ex, est ut eaque exercitationem doloremque unde veritatis laborum tempora officia porro ducimus!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="cycling-sec">
+      <div class="follow-btn">
+        <button>follow us @uniquebikes</button>
+      </div>
+      <div class="cycling-images">
+        <div class="cycling cycle-1">
+          <img src="/images/cycling1.jpeg" alt="1" />
+        </div>
+        <div class="cycling cycle-2">
+          <img src="/images/cycling2.jpeg" alt="2" />
+        </div>
+        <div class="cycling cycle-3">
+          <img src="/images/cycling3.jpeg" alt="3" />
+        </div>
+        <div class="cycling cycle-4">
+          <img src="/images/cycling4.jpeg" alt="4" />
+        </div>
+        <div class="cycling cycle-5">
+          <img src="/images/cycling5.jpeg" alt="5" />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-sec">
+        <div class="content-1">
+          <div class="title">
+            <h1>unique</h1>
+            <p>bikes</p>
+          </div>
+          <div class="copyright">
+            <p>©Copyright Unique bikes</p>
+          </div>
+        </div>
+        <div class="content-2 content">
+          <h1>FAQS</h1>
+          <p>TERMS & CONDITIONS</p>
+          <p>PRIVACY SUPPORT</p>
+          <p>HELP</p>
+        </div>
+        <div class="content-3 content">
+          <h1>SUPPORT</h1>
+          <p>Assembly Guides</p>
+          <p>Payment</p>
+          <p>Shipping & Delivery</p>
+          <p>Returns & Refunds</p>
+        </div>
+        <div class="content-4 content">
+          <h1>SERVICE@UNIQUEBIKES.COM</h1>
+          <p>45 Fairground Rd, New York, United States</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cart-tab">
+      <h1>Shopping Cart</h1>
+
+      <div class="item-list"></div>
+      <div class="cart-tab-btn">
+        <button class="close">Close</button>
+        <button class="check-out">Check out</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="./shoppingCart.js"></script>
+    <script src="/js/heroslider.js"></script>
+    <script src="/js/customize.js"></script>
+  </body>
+</html>

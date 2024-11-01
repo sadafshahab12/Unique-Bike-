@@ -1,0 +1,72 @@
+.carousel {
+  width: 30rem;
+  position: relative;
+  margin: auto;
+}
+
+.carousel img {
+  width: 66rem;
+  height: 45rem;
+  display: none;
+  object-fit: cover;
+}
+.thumbnails img:nth-of-type(2) {
+  filter: hue-rotate(92deg);
+}
+.thumbnails img:nth-of-type(3) {
+  filter: hue-rotate(217deg);
+}
+.purpleImg {
+  filter: hue-rotate(92deg);
+}
+.yellowImg {
+  filter: hue-rotate(217deg);
+}
+
+.carousel img.active {
+  display: block;
+}
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 10rem;
+  padding-top: 6rem;
+}
+.thumbnails img {
+  background-color: #fff;
+}
+.thumbnails img:nth-of-type(1) {
+  width: 16rem;
+  height: 17rem;
+  object-fit: cover;
+  border: 1px solid #000;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+.thumbnails img:nth-of-type(2) {
+  width: 16rem;
+  height: 17rem;
+  object-fit: cover;
+  border: 1px solid #000;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+.thumbnails img:nth-of-type(3) {
+  width: 16rem;
+  height: 17rem;
+  object-fit: cover;
+  border: 1px solid #000;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+.thumbnails img.selected {
+  opacity: 1;
+  width: 26rem;
+  height: 22rem;
+}

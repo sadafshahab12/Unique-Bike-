@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.navbar {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 10rem;
+  align-items: center;
+}
+.nav-bar-icon {
+  display: none;
+}
+.logo {
+  line-height: 2rem;
+}
+.logo h1 {
+  font-family: "Aladin", system-ui;
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 400;
+}
+.logo p {
+  padding-left: 0.5rem;
+  font-size: 1.6rem;
+  font-family: "Roboto", serif;
+  color: #de1313e5;
+  font-weight: 700;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.nav-links li {
+  list-style: none;
+  cursor: pointer;
+}
+.nav-links li a {
+  font-size: 1.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.icons i {
+  font-size: 3.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+.cart-icon {
+  position: relative;
+}
+.cart-num {
+  font-size: 1.5rem;
+  color: #b6e0e8;
+  position: absolute;
+  background: red;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 10rem;
+  align-items: center;
+  top: -1rem;
+  right: -1rem;
+}
+/* hero section  */
+.hero-section {
+  background-color: #000;
+}
+.hero {
+  display: flex;
+  position: relative;
+  padding: 10rem;
+  width: 100%;
+}
+.hero-head {
+  width: 50rem;
+}
+.hero-head h1 {
+  font-size: 10rem;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+}
+.image {
+  position: absolute;
+  top: 16rem;
+  left: 2rem;
+}
+
+.color-prop {
+  text-align: center;
+  display: grid;
+  gap: 1.5rem;
+}
+.color p,
+.size-prop p {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+.color-dots {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.color-name .circle {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.blue {
+  background-color: #b6e0e8;
+}
+.purple {
+  background-color: #e8ccf7;
+}
+.yellow {
+  background-color: #e7d3b3;
+}
+
+.color-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.color-name p {
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.size-prop {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.size label {
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  display: block;
+}
+.size div {
+  display: block;
+}
+.size input {
+  display: none;
+}
+
+.price-prop {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.price,
+.weight {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  text-transform: uppercase;
+}
+.price select {
+  background: #000;
+  color: #fff;
+  font-size: 2rem;
+  outline: none;
+  padding: 0.5rem;
+  border: none;
+  text-align: right;
+}
+.price select option {
+  padding: 0.5rem;
+}
+.weight select {
+  background: #000;
+  color: #fff;
+  font-size: 2rem;
+  outline: none;
+  padding: 0.5rem;
+  border: none;
+  text-align: right;
+}
+.weight select option {
+  padding: 0.5rem;
+}
+
+.cart-btn button {
+  background: #dd1212;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: inset 0.6rem 0.6rem 1rem 0.4rem #0000002b;
+  font-size: 2.25rem;
+  padding: 1rem 4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.color-name input {
+  display: none;
+}
+.bike-properties {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10rem;
+  justify-content: center;
+  padding-left: 32rem;
+  padding-top: 6rem;
+}
+.size label {
+  transition: all 0.2s ease;
+}
+
+.size input[type="radio"]:checked + label {
+  background: gray;
+}
+
+.color-name .circle {
+  transition: border 0.2s ease;
+}
+
+.color-name input[type="radio"]:checked + label > .circle {
+  border: 2px solid red;
+}

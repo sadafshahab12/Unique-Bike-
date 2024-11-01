@@ -1,0 +1,89 @@
+.cart-tab {
+  width: 40rem;
+  background: #1f2021;
+  color: #fff;
+  position: fixed;
+  padding: 0;
+  inset: 10rem -40rem 0 auto;
+  display: grid;
+  grid-template-rows: 5rem 1fr 4rem;
+  justify-items: center;
+  transition: all 0.3s ease;
+}
+.showcart {
+  inset: 10rem 0 0 auto;
+}
+.cart-tab h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+.cart-tab-btn {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+.cart-tab-btn button {
+  font-size: 1.75rem;
+  background: #000;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+.cart-tab-btn .close {
+  background: #d75454;
+  color: #000;
+}
+
+/* item will be add to cart tab  */
+.cart-product {
+  width: 40rem;
+  background: #393b3d;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.cart-product:nth-child(even) {
+  background: #1f2021;
+}
+.item-data h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+.list-cart {
+  font-size: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
+}
+.cart-img {
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 12rem;
+  height: 8rem;
+  object-fit: cover;
+}
+.cart-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item-list {
+  overflow: auto;
+}
+.item-list::-webkit-scrollbar {
+  width: 0;
+}
+.deleIcon{
+  font-size: 2rem;
+  cursor: pointer;
+}

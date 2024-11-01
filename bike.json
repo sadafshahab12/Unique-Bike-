@@ -1,0 +1,67 @@
+[
+  {
+    "image" : "./images/bike blue.png",
+    "color": "blue",
+    "price": "180",
+    "size": "small",
+    "weight": "15"
+  },
+  {
+    "image" : "./images/bike blue.png",
+    "color": "blue",
+    "price": "200",
+    "size": "medium",
+    "weight": "17"
+  },
+  {
+    "image" : "./images/bike blue.png",
+    "color": "blue",
+    "price": "250",
+    "size": "large",
+    "weight": "19"
+  },
+
+  {
+    "image" : "./images/bike blue.png",
+    "color": "purple",
+    "price": "210",
+    "size": "small",
+    "weight": "18"
+  },
+  {
+    "image" : "./images/bike blue.png",
+    "color": "purple",
+    "price": "230",
+    "size": "medium",
+    "weight": "20"
+  },
+  {
+    "image" : "./images/bike blue.png",
+    "color": "purple",
+    "price": "250",
+    "size": "large",
+    "weight": "22"
+  },
+
+  {
+    "image" : "./images/bike blue.png",
+    "color": "yellow",
+    "price": "220",
+    "size": "small",
+    "weight": "19"
+  },
+  {
+    "image" : "./images/bike blue.png",
+    "color": "yellow",
+    "price": "260",
+    "size": "medium",
+    "weight": "21"
+  },
+  {
+    "image" : "./images/bike blue.png",
+    "color": "yellow",
+    "price": "280",
+    "size": "large",
+    "weight": "23"
+  }
+]

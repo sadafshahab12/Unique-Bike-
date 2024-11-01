@@ -1,0 +1,385 @@
+@media only screen and (min-width: 319px) and (max-width: 900px) {
+  html {
+    font-size: 30%;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  .navbar {
+    padding: 3rem 5rem;
+    position: relative;
+  }
+  .logo {
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .logo h1 {
+    font-size: 5rem;
+  }
+  .logo p {
+    font-size: 2rem;
+  }
+  .nav-bar-icon {
+    display: block;
+    color: #fff;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    padding: 8rem 0 0 18rem;
+    left: -80%;
+    gap: 10rem;
+    top: 15rem;
+    background: #000;
+    width: 80%;
+    height: 102rem;
+    cursor: pointer;
+    z-index: 1;
+    justify-content: flex-start;
+    transition: all 0.3s ease-in;
+  }
+  .nav-links li {
+    list-style: none;
+    cursor: pointer;
+  }
+  .nav-links li a {
+    font-size: 3rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* hero section  */
+
+  .hero {
+    flex-direction: column;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13rem;
+  }
+  .hero-head {
+    width: auto;
+  }
+  .hero-head h1 {
+    text-align: center;
+  }
+  .image {
+    position: relative;
+    top: 0;
+    left: 0rem;
+  }
+  .carousel {
+    width: 100%;
+    left: 0;
+  }
+
+  .carousel img {
+    width: 55rem;
+    height: 35rem;
+  }
+  .thumbnails {
+    margin-left: 0rem;
+    padding-top: 8rem;
+  }
+  .thumbnails img:nth-of-type(1) {
+    width: 15rem;
+    height: 15rem;
+  }
+  .thumbnails img:nth-of-type(2) {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .thumbnails img:nth-of-type(3) {
+    width: 15rem;
+    height: 15rem;
+  }
+  .thumbnails img.selected {
+    opacity: 1;
+    width: 18rem;
+    height: 19rem;
+  }
+  .color-name {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .color-name p {
+    font-size: 1.8rem;
+  }
+  .color-dots {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .size {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  .size p {
+    font-size: 1.8rem;
+  }
+
+  .price,
+  .weight {
+    font-size: 2.5rem;
+    flex-direction: column;
+  }
+  .cart-btn button {
+    font-size: 1.5rem;
+    margin-top: 9rem;
+  }
+  .bike-properties {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+
+  /* customize  */
+  .customize-sec {
+    padding: 5rem;
+  }
+  .custom-head h1 {
+    padding-top: 3rem;
+  }
+  .customizing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .arrow {
+    padding-left: 5rem;
+    font-size: 2rem;
+    display: none;
+  }
+  .border {
+    width: auto;
+  }
+  .custom-img-sec {
+    flex-wrap: wrap;
+    gap: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .custom-img {
+    width: 50rem;
+    height: 50rem;
+  }
+  .custom-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .custom-img p {
+    font-size: 3rem;
+    padding-top: 3rem;
+  }
+
+  .para {
+    width: auto;
+    text-wrap-mode: wrap;
+  }
+  .para p {
+    text-align: justify;
+  }
+
+  .cycling-sec {
+    padding: 5rem;
+  }
+  .cycling-images {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .cycling img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cycle-1 {
+    width: 55rem;
+    height: 40rem;
+  }
+
+  .cycle-2 {
+    width: 55rem;
+    height: 40rem;
+  }
+  .cycle-3 {
+    width: 55rem;
+    height: 40rem;
+  }
+  .cycle-4 {
+    width: 55rem;
+    height: 40rem;
+  }
+  .cycle-5 {
+    width: 55rem;
+    height: 40rem;
+  }
+  .footer-sec {
+    align-items: self-start;
+    padding: 5rem;
+  }
+  .copyright {
+    color: #fff;
+    font-size: 2rem;
+    padding-top: 3rem;
+  }
+
+  .content h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Roboto", serif;
+    padding-top: 0;
+  }
+  .content p {
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #ffffffcc;
+    font-family: "Roboto", serif;
+  }
+
+  .title {
+    margin-bottom: 0;
+    line-height: 4rem;
+  }
+  .title h1 {
+    font-size: 5rem;
+  }
+  .title p {
+    font-size: 2.5rem;
+    padding-left: 0.5rem;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    color: #de1313e5;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  html {
+    font-size: 35%;
+  }
+
+  .navbar {
+    padding: 5rem 8rem;
+  }
+  .logo {
+    line-height: 5rem;
+    gap: 5rem;
+  }
+
+  .logo h1 {
+    font-size: 7rem;
+  }
+  .logo p {
+    font-size: 4rem;
+  }
+  .nav-bar-icon {
+    font-size: 5rem;
+  }
+  .icons {
+    gap: 6rem;
+  }
+  .icons i {
+    font-size: 4.5rem;
+  }
+  .carousel {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel img {
+    width: 70rem;
+    height: 50rem;
+  }
+  .thumbnails {
+    margin-left: 0rem;
+    padding-top: 8rem;
+    gap: 5rem;
+  }
+  .thumbnails img:nth-of-type(1) {
+    width: 18rem;
+    height: 18rem;
+  }
+  .thumbnails img:nth-of-type(2) {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .thumbnails img:nth-of-type(3) {
+    width: 18rem;
+    height: 18rem;
+  }
+  .thumbnails img.selected {
+    opacity: 1;
+    width: 22rem;
+    height: 22rem;
+  }
+  .color-name {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .color-name p {
+    font-size: 2rem;
+  }
+  .color-dots {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .size {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .size p {
+    font-size: 1.8rem;
+  }
+
+  .price,
+  .weight {
+    font-size: 2.5rem;
+  }
+  .cart-btn button {
+    font-size: 2.5rem;
+    margin-top: 9rem;
+    width: 25rem;
+    padding: 1rem 5rem;
+  }
+  .bike-properties {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10rem;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 2559px) {
+  html {
+    font-size: 133%;
+  }
+}
