@@ -3,15 +3,6 @@ let navIconDiv = document.querySelector(".nav-bar-icon");
 let navIcon = document.querySelector(".nav-bar-icon i");
 let navLinks = document.querySelector(".nav-links");
 function changeIcon() {
-  // if(navIcon.classList.contains("fa-bars-staggered")){ both can be used
-  //     navIcon.classList.remove("fa-bars-staggered");
-  //     navIcon.classList.add("fa-xmark");
-  // }
-  // else{
-  //     navIcon.classList.add("fa-bars-staggered");
-  //     navIcon.classList.remove("fa-xmark");
-  // }
-
   if (navLinks.style.left === "0%") {
     navLinks.style.left = "-80%";
   } else {
@@ -56,27 +47,9 @@ sizes.forEach((size) => {
     });
 
     // Set the background color of the selected size
-    size.style.backgroundColor = "gray"; // Change this color as needed
-    size.style.color = "#000"; // Change this color as needed
+    size.style.backgroundColor = "gray"; // Change this color 
+    size.style.color = "#000"; // Change this color
     let selectedSize = size.textContent;
-    console.log(`Selected:   ${selectedSize}`); // Optional: log the selected size
+    console.log(`Selected:   ${selectedSize}`); //
   });
 });
-
-
-
-// practice
-// let circle = document.querySelectorAll(".circle");
-
-// circle.forEach((circle) => {
-//   circle.addEventListener("click", () => {
-//     let circleParent = circle.parentNode;
-//     let p = circleParent.querySelector("div p");
-//     console.log(p);
-//     if (circle) {
-//       p.style.display = "block";
-//     } else {
-//       p.style.display = "none";
-//     }
-//   });
-// });
